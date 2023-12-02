@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body{
+  background-color: white
+}
+.menu {
+    width: 100%;
+    background-color: rgb(206, 10, 10);
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+  }
+
+  .menu ul {
+    text-align: center;
+    list-style: none;
+    position:relative;
+    padding: 0;
+  }
+
+  .menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    color: black
+  }
+
+  .menu ul li {
+    display: inline-block;
+    width: 150px;
+    padding: 0px 10px;
+    line-height: 80px;
+    padding: 0;
+    position: relative;
+  }
+
+  .menu a:hover {
+    transition: all 0.4s ease;
+    color: white;
+  }
+
+  .container{
+    padding: 20px 80px 80px 120px; 
+    text-align: justify;
+  }
+  
+
+  .site-name{
+    border: 3px solid orange;
+    background-color: beige;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(206, 10, 10);
+    font-size: 60px;
+  }
+
+  .principal-image img{
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+
+  .footer{
+    width: 100%;
+    background-color: rgb(206, 10, 10);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+  }
+
+  .about-me img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid rgb(206, 10, 10);
+  }
+
+  .catálogo img{
+    border: 5px solid rgb(206, 10, 10);
+  }
+
+
+  h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(206, 10, 10);
+    font-size: 80px;
+    text-align: center;
+  }
+  h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+  }
+
+  h3{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(206, 10, 10);
+    font-size: 50px; 
+    text-align: center;
+  }
+
+  h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+  }
+  
+  a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px; 
+    color: black;
+    text-decoration: none;
+
+  }
+  
+  a:hover {
+    transition: all 0.4s ease;
+    color: rgb(206, 10, 10);
+  }
+  
